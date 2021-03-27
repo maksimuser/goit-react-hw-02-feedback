@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-const Notification = ({ text }) => <p>{text}</p>;
+
+const Notification = ({ text }) => <p className="text">{text}</p>;
 
 Notification.propTypes = {
   text: PropTypes.string.isRequired,
