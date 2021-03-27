@@ -1,0 +1,23 @@
+.Feedback {
+  // display: inline-block;
+  border: 1px solid orange;
+
+  button:not(:first-child) {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: orange;
+  }
+
+  &__stat {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  &__items {
+    display: flex;
+    flex-direction: column;
+  }
+}
